@@ -1,4 +1,4 @@
-# Color Catcher
+# Color Picker
 A mfc app for web designers to choose the color they want by pointing at it.:sparkles:
 
 #### download it <a href="https://github.com/bestoak/catch-color/raw/master/download/CatchColor.zip" target="_blank">here</a>.
