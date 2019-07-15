@@ -1,0 +1,237 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中国語 (簡体字、中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CatchColor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中国語 (簡体字、中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CatchColor.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 0, 0, 119, 38
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 10, "????", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,73,5,31,16
+    CTEXT           "shepherd lee",IDC_STATIC,14,8,57,10,SS_CENTERIMAGE
+    CTEXT           "https://github.com/bestoak",IDC_STATIC,0,23,120,11,SS_CENTERIMAGE
+END
+
+IDD_CATCHCOLOR_DIALOG DIALOGEX 0, 0, 131, 113
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CatchColor"
+FONT 9, "????", 0, 0, 0x1
+BEGIN
+    CTEXT           "R",IDC_STATIC_TEXT1,60,7,30,14,SS_CENTERIMAGE | WS_BORDER
+    CTEXT           "G",IDC_STATIC_TEXT2,60,25,30,14,SS_CENTERIMAGE | WS_BORDER
+    CTEXT           "B",IDC_STATIC_TEXT3,60,43,30,14,SS_CENTERIMAGE | WS_BORDER
+    CONTROL         "",IDC_MAGNIFIER,"Static",SS_BLACKRECT | WS_BORDER,7,7,50,50
+    CTEXT           "",IDC_SHOW,7,90,50,16,SS_CENTERIMAGE | WS_BORDER
+    PUSHBUTTON      "About",IDC_BTN_ABOUT,92,90,32,16,BS_FLAT
+    EDITTEXT        IDC_R,92,7,32,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_G,92,25,32,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_B,92,43,32,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    PUSHBUTTON      "Panel",IDC_BTN_COLOR,60,90,31,16,BS_FLAT
+    CTEXT           "Mouse Pos",IDC_STATIC_TEXT4,7,60,50,12,SS_CENTERIMAGE | WS_BORDER
+    CTEXT           "Html Color",IDC_STATIC_TEXT5,7,75,50,12,SS_CENTERIMAGE | WS_BORDER
+    EDITTEXT        IDC_WEBCOLOR,60,75,64,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_X,60,60,30,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_Y,92,60,32,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "http://www.lisong.name/"
+            VALUE "CompanyName", "lee'soft"
+            VALUE "FileDescription", "?"
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "CatchColor"
+            VALUE "LegalCopyright", "???? (C) 2008 ??"
+            VALUE "OriginalFilename", "CatchColor.exe"
+            VALUE "ProductVersion", "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+    END
+
+    IDD_CATCHCOLOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 124
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_CATCHCOLOR_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ID_MENU_SHOW            "????"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MENU_QUIT            "????"
+END
+
+#endif    // 英語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\CatchColor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
