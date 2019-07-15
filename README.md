@@ -1,8 +1,10 @@
 # Color Catcher
-A mfc app for web designers to choose the color they want by pointing at it.
+A mfc app for web designers to choose the color they want by pointing at it.:sparkles:
 
-### Pick up the color by pointing at it.:stuck_out_tongue_closed_eyes:
+#### download it <a href="https://github.com/bestoak/catch-color/blob/master/download/CatchColor.zip" target="_blank">here</a>.
+
+### Pick up the color by pointing at it.
 <img src="./img/main.png">
 
-### Minimize to the notification area and use it whenever you want.:sparkles:
+### Minimize to the notification area and use it whenever you want.
 <img src="./img/sysTray.png">
