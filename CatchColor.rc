@@ -137,14 +137,14 @@ BEGIN
     BEGIN
         BLOCK "080404b0"
         BEGIN
-            VALUE "Comments", "http://www.lisong.name/"
-            VALUE "CompanyName", "lee'soft"
-            VALUE "FileDescription", "?"
-            VALUE "FileVersion", "1.0"
+            VALUE "Comments", ""
+            VALUE "CompanyName", ""
+            VALUE "FileDescription", ""
+            VALUE "FileVersion", "1.0.0"
             VALUE "InternalName", "CatchColor"
-            VALUE "LegalCopyright", "???? (C) 2008 ??"
+            VALUE "LegalCopyright", "Copyright (C) 2019 shepherd lee"
             VALUE "OriginalFilename", "CatchColor.exe"
-            VALUE "ProductVersion", "1.0"
+            VALUE "ProductVersion", "1.0.0"
         END
     END
     BLOCK "VarFileInfo"
@@ -200,12 +200,12 @@ END
 
 STRINGTABLE
 BEGIN
-    ID_MENU_SHOW            "????"
+    ID_MENU_SHOW            "show"
 END
 
 STRINGTABLE
 BEGIN
-    ID_MENU_QUIT            "????"
+    ID_MENU_QUIT            "quit"
 END
 
 #endif    // 英語 resources
